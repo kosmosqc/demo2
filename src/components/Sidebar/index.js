@@ -1,4 +1,5 @@
 import React from "react";
+import { animateScroll as scroll } from "react-scroll/modules";
 import {
   SidebarContainer,
   Icon,
@@ -11,6 +12,9 @@ import {
 } from "./SidebarElements";
 
 const Sidebar = ({ isOpen, toggle }) => {
+  const toggleHome = () => {
+    scroll.scrollToTop();
+  };
   return (
     <>
       <SidebarContainer isOpen={isOpen} onClick={toggle}>
@@ -31,7 +35,9 @@ const Sidebar = ({ isOpen, toggle }) => {
           </SidebarMenu>
           {
             <SideBtnWrap>
-              <SidebarRoute to="/Skill">Skill</SidebarRoute>
+              <SidebarRoute onClick={toggleHome} to="/Skill">
+                Skill
+              </SidebarRoute>
             </SideBtnWrap>
           }
         </SideBarWrapper>
