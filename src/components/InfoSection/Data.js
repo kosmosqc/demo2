@@ -20,7 +20,7 @@ export const homeObgOne = {
 };
 
 export const homeObgOneb = {
-  id: "dis",
+  id: "parcour",
   lightBg: true,
   lightText: false,
   lightTextDesc: false,

@@ -9,6 +9,8 @@ import {
   NavMenu,
   NavItem,
   NavLinks,
+  NavBtn,
+  NavBtnLink,
 } from "./NavbarElements";
 
 const Navbar = ({ toggle }) => {
@@ -54,7 +56,7 @@ const Navbar = ({ toggle }) => {
             </NavItem>
             <NavItem>
               <NavLinks
-                to="dis"
+                to="parcour"
                 smooth={true}
                 duration={500}
                 spy={true}
@@ -66,20 +68,20 @@ const Navbar = ({ toggle }) => {
             </NavItem>
             <NavItem>
               <NavLinks
-                to="about2"
+                to="projet"
                 smooth={true}
                 duration={500}
                 spy={true}
                 exact="true"
                 offset={-80}
               >
-                Skill
+                Projet
               </NavLinks>
             </NavItem>
 
-            {/* <NavBtn>
-                            <NavBtnLink to="/test">SKill</NavBtnLink>
-                        </NavBtn> */}
+            <NavBtn>
+              <NavBtnLink to="/Skill">Skill</NavBtnLink>
+            </NavBtn>
           </NavMenu>
         </NavbarContainer>
       </Nav>

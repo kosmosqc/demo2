@@ -1,17 +1,16 @@
-import './App.css';
-import Home from './pages';
-
+import "./App.css";
+import Home from "./pages";
+import Skillpage from "./pages/Skill";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
-  document.title = "Alain Gionet"
+  document.title = "Alain Gionet";
   return (
     <Router>
-     <Routes>
-       <Route exact path="/" element={<Home/>}  />
-       <Route exact path="/we" element={<Home/>}  />
-   
-     </Routes>
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/Skill" element={<Skillpage />} />
+      </Routes>
     </Router>
   );
 }
