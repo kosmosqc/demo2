@@ -90,14 +90,14 @@ const Services = () => {
         <ul class="ul2">
           2022 Stage de 8 semaines
           <li>
-            Concevoir un site web en PHP avec SQL,HTML,CSS pour la gestion de
-            membre et location de jouet
+            Défis : concevoir un site web en PHP avec SQL,HTML,CSS pour la
+            gestion de membre et la location de jouet
           </li>
           <br />
         </ul>
         <h2 class="titre">Formation</h2>
         <ul class="ul2">
-          2021-2022
+          2021-2022 (Diplôme obtenu)
           <li> Collège Rosemont : AEC en programmation orientée objet</li>
         </ul>
       </div>
