@@ -22,10 +22,11 @@ const Projets = () => {
           <ProjetsLink href="https://addons.mozilla.org/en-US/firefox/addon/rounded-price-for-amazon/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search">
             <ProjetsCard>
               <ProjetsIcon src={Icon1} />
-              <ProjetsH2>Amazon price rounder</ProjetsH2>
+              <ProjetsH2>Prix arrondi pour Amazon</ProjetsH2>
               <ProjetsP>
-                Une extension qui permet d'arrondir les prix sur le site
-                d'Amazon
+                Une extension de navigateur qui permet d'arrondir les prix sur
+                le site d'Amazon <br />
+                (7.99$ = 8$)
               </ProjetsP>
             </ProjetsCard>
           </ProjetsLink>
@@ -35,6 +36,7 @@ const Projets = () => {
             <ProjetsP>
               <br />
               <br />
+              <br />
               (en construction)
             </ProjetsP>
           </ProjetsCard>
@@ -42,6 +44,7 @@ const Projets = () => {
             <ProjetsIcon src={Icon3} />
             <ProjetsH2>Demo</ProjetsH2>
             <ProjetsP>
+              <br />
               <br />
               <br />
               (en construction)
