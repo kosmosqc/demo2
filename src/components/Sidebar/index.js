@@ -29,7 +29,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             <SidebarLink onClick={toggle} to="parcour">
               Parcour
             </SidebarLink>
-            <SidebarLink onClick={toggle} to="about2">
+            <SidebarLink onClick={toggle} to="projet">
               Projet
             </SidebarLink>
           </SidebarMenu>
