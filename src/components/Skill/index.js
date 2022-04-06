@@ -3,7 +3,7 @@ import "./Skill.css";
 
 const Skillpage = () => {
   return (
-    <div class="container" style={{ backgroundColor: "#010606" }}>
+    <div class="container">
       <div class="col">
         <h2 class="titre">Skill</h2>
         <ul class="skill">

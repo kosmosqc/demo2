@@ -1,4 +1,9 @@
 @media only screen and (max-width: 600px) {
+	.container{
+		background-color: #000;
+		
+		height: 1000px;
+	}
 .about2{
 	background-color: #000;
 }
@@ -14,6 +19,7 @@
 		font-size: 20px;
 		color: #dedede;
 		text-align: center;
+
 	}
 	.col {
 	  width: 23%;
@@ -114,6 +120,7 @@
 		font-size: 30px;
 		color: #dedede;
 		text-align: center;
+	
 	}
 	.col {
 		width: 23%;
@@ -163,7 +170,7 @@
 		width: auto;
 		height: 1100px;
 		  padding:5%;
-		
+		background-color: #000;
 		overflow: hidden;
 		
 	}
@@ -251,7 +258,5 @@
 
 
 
-.container {
-	height:100%;
-}
+
 
