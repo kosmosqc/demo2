@@ -24,7 +24,7 @@ export const homeObg2 = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topline: "Parcour",
+  topline: "Parcours & expérience",
   headLine:
     "J'ai commencé très jeunes avec un commodore 64 pour ensuite évoluer vers les Pentium I-IV avec msdos et Windows 3.1 ",
   description:
