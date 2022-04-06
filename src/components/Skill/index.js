@@ -1,9 +1,9 @@
 import React from "react";
-import "../Skill.css";
+import "./Skill.css";
 
 const Skillpage = () => {
   return (
-    <div class="container" id="about2" style={{ backgroundColor: "#010606" }}>
+    <div class="container" style={{ backgroundColor: "#010606" }}>
       <div class="col">
         <h2 class="titre">Skill</h2>
         <ul class="skill">

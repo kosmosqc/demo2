@@ -36,7 +36,7 @@
 	.col2 ul {
 		font-size: 5px;
 	}
-	h2 {
+	.titre {
 	font-size: 15px;
 	font-weight: normal;
 	padding: 10px 0 16px 0;
@@ -167,7 +167,7 @@
 		overflow: hidden;
 		
 	}
-	h2 {
+	.titre {
 		font-size: 2.2em;
 	  font-weight: normal;
 		padding: 10px 0 16px 0;

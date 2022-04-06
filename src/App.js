@@ -1,6 +1,6 @@
 import "./App.css";
 import Home from "./pages";
-import Skillpage from "./pages/Skill";
+import Skillpage from "./components/Skill/index";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {

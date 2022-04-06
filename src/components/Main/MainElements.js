@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { MdKeyboardArrowRight, MdArrowForward } from "react-icons/md";
 
-export const SectionContainer = styled.div`
+export const MainContainer = styled.div`
   background: #0c0c0c;
   display: flex;
   justify-content: center;
@@ -12,7 +12,7 @@ export const SectionContainer = styled.div`
   z-index: 1;
 `;
 
-export const SectionBg = styled.div`
+export const MainBg = styled.div`
   position: absolute;
   top: 0;
   right: 0;
@@ -30,7 +30,7 @@ export const VideoBg = styled.video`
   background: #232a34;
 `;
 
-export const SectionContent = styled.div`
+export const MainContent = styled.div`
   z-index: 3;
   max-width: 1200px;
   position: absolute;
@@ -40,7 +40,7 @@ export const SectionContent = styled.div`
   align-items: center;
 `;
 
-export const SectionH1 = styled.h1`
+export const MainH1 = styled.h1`
   color: #fff;
   font-size: 48px;
   text-align: center;
@@ -54,7 +54,7 @@ export const SectionH1 = styled.h1`
   }
 `;
 
-export const SectionP = styled.p`
+export const MainP = styled.p`
   margin-top: 24px;
   color: #fff;
   font-size: 24px;
@@ -70,7 +70,7 @@ export const SectionP = styled.p`
   }
 `;
 
-export const SectionBtnWrapper = styled.div`
+export const MainBtnWrapper = styled.div`
   margin-top: 32px;
   display: flex;
   flex-direction: column;

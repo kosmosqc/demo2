@@ -1,4 +1,4 @@
-export const homeObgOne = {
+export const homeObg1 = {
   id: "about",
   lightBg: false,
   lightText: true,
@@ -19,7 +19,7 @@ export const homeObgOne = {
   darkText: false,
 };
 
-export const homeObgOneb = {
+export const homeObg2 = {
   id: "parcour",
   lightBg: true,
   lightText: false,
