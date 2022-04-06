@@ -4,9 +4,9 @@ import "./Skill.css";
 const Skillpage = () => {
   return (
     <div class="container">
-      <p>Skill et outils</p>
+      <p>Skills et outils</p>
       <div class="col">
-        <h2 class="titre">Skill</h2>
+        <h2 class="titre">Skills</h2>
         <ul class="skill">
           <li>
             <span class="purpleline javascript"></span>
@@ -51,7 +51,7 @@ const Skillpage = () => {
         </ul>
       </div>
       <div class="col">
-        <h2 class="titre">Outil</h2>
+        <h2 class="titre">Outils</h2>
         <ul class="skill">
           <li>
             <span class="purpleline win10"></span>
