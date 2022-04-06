@@ -12,12 +12,14 @@ import {
   ProjetsCard,
   ProjetsP,
   ProjetsLink,
+  ProjetsTopline,
 } from "./ProjetsElements";
 
 const Projets = () => {
   return (
     <ProjetsContainer id="projet">
       <ProjetsH1>
+        <ProjetsTopline>Projets</ProjetsTopline>
         <ProjetsWrapper>
           <ProjetsLink href="https://addons.mozilla.org/en-US/firefox/addon/rounded-price-for-amazon/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search">
             <ProjetsCard>

@@ -1,12 +1,6 @@
 @media only screen and (max-width: 600px) {
-	.container{
-		background-color: #000;
-		
-		height: 1000px;
-	}
-.about2{
-	background-color: #000;
-}
+	
+
 	h1{
 		font-family:Verdana, Geneva, Tahoma, sans-serif;
 	}
@@ -17,9 +11,7 @@
 	}
 	.container p {
 		font-size: 20px;
-		color: #dedede;
 		text-align: center;
-
 	}
 	.col {
 	  width: 23%;
@@ -118,7 +110,7 @@
 	}
 	.container p {
 		font-size: 30px;
-		color: #dedede;
+		
 		text-align: center;
 	
 	}
@@ -258,7 +250,19 @@
 
 
 body{
-	background-color: #000;
+	background-color: #010606;
 }
 
 
+p{
+  
+  color: #5f43b2;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  margin-top: 16px;
+  text-align: center;
+
+}

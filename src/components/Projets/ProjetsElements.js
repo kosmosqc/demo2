@@ -81,3 +81,13 @@ export const ProjetsP = styled.p`
   font-size: 1rem;
   text-align: center;
 `;
+export const ProjetsTopline = styled.p`
+  color: #5f43b2;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  text-align: center;
+`;

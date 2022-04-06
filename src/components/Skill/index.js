@@ -4,6 +4,7 @@ import "./Skill.css";
 const Skillpage = () => {
   return (
     <div class="container">
+      <p>Skill et outils</p>
       <div class="col">
         <h2 class="titre">Skill</h2>
         <ul class="skill">
