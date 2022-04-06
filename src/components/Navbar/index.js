@@ -80,7 +80,9 @@ const Navbar = ({ toggle }) => {
             </NavItem>
 
             <NavBtn>
-              <NavBtnLink to="/Skill">Skill</NavBtnLink>
+              <NavBtnLink onClick={toggleHome} to="/Skill">
+                Skill
+              </NavBtnLink>
             </NavBtn>
           </NavMenu>
         </NavbarContainer>
